@@ -22,5 +22,5 @@ async def root():
     return {
         "email": "onyekachi.okomba@gmail.com",
         "current_datetime": datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z'),
-        "github_url": "try"
+        "github_url": "https://github.com/DikeH-Ai/Stage-0"
     }
